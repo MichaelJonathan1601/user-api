@@ -76,3 +76,16 @@ mvn spring-boot:run
 - Solução:
 
 Veja o tópico Configurar banco de dados MySQL acima.
+
+
+- Chamadas da API:
+
+GET (findAll): http://localhost:8080/api/clientes
+
+GET (id): http://localhost:8080/api/clientes/{id}
+
+POST: http://localhost:8080/api/clientes - infos no form-data
+
+PUT: http://localhost:8080/api/clientes - infos no form-data
+
+DELETE: http://localhost:8080/api/clientes/{id}
